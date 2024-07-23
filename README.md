@@ -1,0 +1,2 @@
+- cài visual studio 2019 trở lên
+- cài csdl bookshop online với SQL Server
