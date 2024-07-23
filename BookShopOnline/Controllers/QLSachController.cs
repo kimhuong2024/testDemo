@@ -79,5 +79,11 @@ namespace BookShopOnline.Controllers
 
             return View(book);
         }
+
+public ActionResult DetailBook1()
+        {            
+
+            return View();
+        }
     }
 }
