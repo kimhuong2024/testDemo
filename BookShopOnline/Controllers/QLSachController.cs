@@ -86,4 +86,17 @@ public ActionResult DetailBook1()
             return View();
         }
     }
+	
+	public ActionResult DetailBook2()
+        {            
+
+            return View();
+        }
+		
+		public ActionResult DetailBook3()
+        {            
+
+            return View();
+        }
+    }
 }
