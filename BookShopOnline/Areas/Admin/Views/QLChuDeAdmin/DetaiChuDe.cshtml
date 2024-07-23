@@ -1,0 +1,34 @@
+﻿@model BookShopOnline.Areas.Admin.Data.ChuDeVM
+
+@{
+    ViewBag.Title = "DetaiChuDe";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>CHI TIẾT CHỦ ĐỀ</h2>
+
+<div>   
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MaCD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaCD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenCD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenCD)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "EditChuDe", new { id = Model.MaCD }, null) |
+    @Html.ActionLink("Trở lại", "Index", "QLChuDeAdmin")
+</p>
